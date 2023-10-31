@@ -18,7 +18,7 @@ public class Words {
         }
     }
 
-    public static StringBuilder getLine(String line) {
+    public static StringBuilder wordGame(String line) {
         String[] words = line.split(" ");
         boolean[] used = new boolean[words.length];
         StringBuilder result = new StringBuilder();
@@ -44,13 +44,17 @@ public class Words {
 
     public static void main(String[] args) {
         try (BufferedReader in = new BufferedReader(new InputStreamReader(System.in))) {
-            String filename = ("/Users/valeriavorobej/IdeaProjects/UniJava/src/ru/mirea/lab13/n6/Words");
+            System.out.println("Введите путь к файлу:");
+            String filename = in.readLine();
             String line = readFromFile(filename);
+            System.out.println("Изначальная строка:");
             System.out.println(line);
-            StringBuilder result = getLine(line);
+            StringBuilder result = wordGame(line);
+            System.out.println("Итоговая строка:");
             System.out.println(result);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 }
+///Users/valeriavorobej/IdeaProjects/UniJava/src/ru/mirea/lab13/n6/Words
