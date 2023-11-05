@@ -9,6 +9,8 @@ public class MVCPatternDemo {
         student.setRollNo("Ba-12");
         return student;
     }
+
+
     public static void main(String[] args)
     {
         Student model = retrieveStudentFromDatabase();
