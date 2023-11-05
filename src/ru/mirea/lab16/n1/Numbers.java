@@ -16,55 +16,6 @@ public class Numbers extends JFrame {
         setSize(300, 200);
         setLayout(new BorderLayout());
 
-        // Верхняя панель (САО)
-        JPanel northPanel = new JPanel();
-        northPanel.setBackground(Color.BLUE);
-        northPanel.addMouseListener(new MouseAdapter() {
-            public void mouseEntered(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Добро пожаловать в САО");
-            }
-        });
-        add(northPanel, BorderLayout.NORTH);
-
-        // Левая панель (ЗАО)
-        JPanel westPanel = new JPanel();
-        westPanel.setBackground(Color.RED);
-        westPanel.addMouseListener(new MouseAdapter() {
-            public void mouseEntered(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Добро пожаловать в ЗАО");
-            }
-        });
-        add(westPanel, BorderLayout.WEST);
-
-        // Центральная панель (ЦАО)
-        JPanel centerPanel = new JPanel();
-        centerPanel.setBackground(Color.YELLOW);
-        centerPanel.addMouseListener(new MouseAdapter() {
-            public void mouseEntered(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Добро пожаловать в ЦАО");
-            }
-        });
-        add(centerPanel, BorderLayout.CENTER);
-
-        // Правая панель (ВАО)
-        JPanel eastPanel = new JPanel();
-        eastPanel.setBackground(Color.GREEN);
-        eastPanel.addMouseListener(new MouseAdapter() {
-            public void mouseEntered(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Добро пожаловать в ВАО");
-            }
-        });
-        add(eastPanel, BorderLayout.EAST);
-
-        // Нижняя панель (ЮАО)
-        JPanel southPanel = new JPanel();
-        southPanel.setBackground(Color.ORANGE);
-        southPanel.addMouseListener(new MouseAdapter() {
-            public void mouseEntered(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Добро пожаловать в ЮАО");
-            }
-        });
-        add(southPanel, BorderLayout.SOUTH);
 
         // Панель с текстовым полем и кнопкой
         JPanel inputPanel = new JPanel();
