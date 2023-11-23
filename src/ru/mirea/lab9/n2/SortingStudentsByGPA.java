@@ -42,9 +42,9 @@ public class SortingStudentsByGPA implements Comparator {
 
     public static void main(String[] args) {
         int[] arr = {56, 24, 91, 64, 33, 68};
-        System.out.println("Before sorting: " + Arrays.toString(arr));
+        System.out.println("До сортировки: " + Arrays.toString(arr));
         quickSort(arr, 0, arr.length - 1);
-        System.out.println("After sorting: " + Arrays.toString(arr));
+        System.out.println("После сортировки: " + Arrays.toString(arr));
     }
 
 }

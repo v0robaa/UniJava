@@ -5,11 +5,11 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1, 3, 6};
 
-        System.out.println("Before sorting: " + Arrays.toString(arr));
+        System.out.println("До сортировки: " + Arrays.toString(arr));
 
         mergeSort(arr);
 
-        System.out.println("After sorting: " + Arrays.toString(arr));
+        System.out.println("После сортировки: " + Arrays.toString(arr));
     }
 
     public static void mergeSort(int[] arr) {
