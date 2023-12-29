@@ -39,7 +39,7 @@ public class n1_2 {
             }
             rear++;
 
-            items[rear] = element; //вставляем элемент в жопу
+            items[rear] = element;
             System.out.println("Inserted " + element);
         }
     }
