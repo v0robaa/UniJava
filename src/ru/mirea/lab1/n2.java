@@ -1,7 +1,5 @@
 package ru.mirea.lab1;
-
 import java.util.Scanner;
-
 public class n2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -21,8 +19,6 @@ public class n2 {
         {
             System.out.println(arr[j] + " ");
         }
-
-
         System.out.println("Решение через цикл while: ");
         int counter1 = 0;
         int sum1 = 0;

@@ -3,7 +3,6 @@ package ru.mirea.lab4_1.n1_8;
 public class Square extends Shape {
     double a, b;
 
-
     public String getType() {
         return "Square";
     }

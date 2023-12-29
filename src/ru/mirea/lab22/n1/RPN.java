@@ -46,6 +46,7 @@ public class RPN {
 
     public static void main(String[] args) {
         String expression = "3 4 + 2 *";
+        System.out.println(expression);
         double result = calculateRPN(expression);
         System.out.println("Результат: " + result);
     }

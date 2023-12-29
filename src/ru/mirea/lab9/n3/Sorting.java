@@ -45,9 +45,9 @@ public class Sorting {
 
         List<Student> mergedList = mergeSortedLists(list1, list2);
 
-        System.out.println("Merged and sorted student list:");
+        System.out.println("Отсортированный список:");
         for (Student student : mergedList) {
-            System.out.println("ID: " + student.getIDNumber() + ", Name: " + student.getName());
+            System.out.println("ID: " + student.getIDNumber() + ", Имя: " + student.getName());
         }
     }
 }
