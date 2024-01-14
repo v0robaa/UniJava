@@ -15,3 +15,4 @@ public class main
         frame.setVisible(true);
     }
 }
+//i wanna see Java in stats
